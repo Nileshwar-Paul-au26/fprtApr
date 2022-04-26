@@ -1,0 +1,32 @@
+.prodImg{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+.proDiv{
+   margin:2% 0% 2% 5%;
+    display: inline-block;
+}
+.productGrid{
+    background-color: white;
+}
+.item{
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+    padding:5px;
+}  
+.addToCart{
+    margin-top:2%;
+} 
+.container1{
+    margin:auto;
+    width:800px
+}
+th{
+    font-size:30px;
+}
+td{
+    padding:15px;
+    font-size:25px;
+}

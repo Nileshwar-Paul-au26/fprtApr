@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <script defer type="text/javascript" src="./js/script.js"></script>
+    <title>Shopping</title>
+</head>
+<body class="bg-info" onload="main()">
+    <main id="main" class="m-3">
+        <div class="row text-center">
+            <h1>
+                <img
+                    src="https://img.icons8.com/external-febrian-hidayat-outline-color-febrian-hidayat/64/000000/external-cart-ui-essential-febrian-hidayat-outline-color-febrian-hidayat.png" />
+                Shopping Cart
+            </h1>
+        </div>
+        <div class="container bg-light">
+            <span id="sp1"></span>
+        </div>
+    </main>
+    <section id="cart">
+        <h1 style="text-align:center">Shopping Cart </h1>
+        <table id="cartTable" style="width:800px;border:1px solid black;margin-left:20%">
+            <tr id="headRow" style="border:1px solid grey">
+                <th colspan="5">Product</th>
+                <th>Price</th>
+                <th colspan="3">Quantity</th>
+                <th colspan="3"></th>
+            </tr>
+        </table>
+        <div id="total" style="margin-left:20%;font-size:25px;"></div>
+        <div style="width:800px;padding:20px;display:flex;justify-content:space-between;margin-left:20%">
+            <button class="btn btn-outline-light" onclick="fun1()">
+                <-- Continue shopping</button>
+                    <button class="btn btn-primary btn-lg" onclick="fun1()">Checkout</button>
+        </div>
+    </section>
+</body>
+</html>
